@@ -1,5 +1,25 @@
 {
   "dependencies": {
     "analiza-sync": "^1.0.1"
-  }
+  },
+  "name": "day_1",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000j\u0000s\u0000-\u0000b\u0000a\u0000s\u0000i\u0000c\u0000s\u0000-\u0000-\u0000-\u0000a\u0000s\u0000y\u0000n\u0000c\u0000-\u0000c\u0000a\u0000l\u0000l\u0000b\u0000a\u0000c\u0000k\u0000s\u0000\r\u0000 \u0000",
+  "main": "async.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AriKodcode/js-basics---async-callbacks.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/AriKodcode/js-basics---async-callbacks/issues"
+  },
+  "homepage": "https://github.com/AriKodcode/js-basics---async-callbacks#readme"
 }

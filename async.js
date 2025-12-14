@@ -1,3 +1,4 @@
+import fs from 'fs';
 // function getUserName(callback) {
 //   setTimeout(() => {
 //     const username = 'ari';
@@ -115,3 +116,98 @@
 //   console.log(`result: ${result}`);
 // });
 //2
+// console.log('1');
+
+// const content = 'Hello from async writeFile';
+// fs.writeFile('node.txt', content, 'utf-8', (err) => {
+//   if (err) {
+//     console.log('Error: ', err);
+//   } else {
+//     console.log('File written successfully');
+//   }
+// });
+// 2.2;
+// fs.readFile('note.txt', 'utf-8', (err, data) => {
+//   if (err) {
+//     console.log('Error reading file');
+//   } else {
+//     console.log('Content: ' + data);
+//   }
+// });
+//2.3
+// fs.appendFile('note.txt', '\nNew line added', (err) => {
+//   if (err) {
+//     console.log('Error', err);
+//   } else {
+//     console.log('Line appended');
+//   }
+// });
+//2.4
+// fs.mkdir('logs', (err) => {
+//   if (err) {
+//     console.log('folder allredy exist!');
+//   } else {
+//     console.log("Directory 'logs' created");
+//   }
+// });
+//2.5
+// fs.writeFile('logs/log.txt', 'First log line', (err) => {
+//   if (err) {
+//     console.log('Error creating log file');
+//   } else {
+//     console.log('Log file created');
+//   }
+// });
+//2.6
+// fs.readdir('logs', (err, files) => {
+//   if (err) {
+//     console.log('nof found fules in logs');
+//   } else {
+//     console.log('Files in logs:', files);
+//   }
+// });
+//2.7
+// fs.stat('note.txt', (err, Status) => {
+//   if (err) {
+//     console.log('Error getting stats');
+//   } else {
+//     console.log('Is file: ' + Status.isFile(), 'Size: ' + Status.size);
+//   }
+// });
+//2.8
+// fs.unlink('logs/log.txt', (err) => {
+//   if (err) {
+//     console.log('file not found');
+//   } else {
+//     console.log('log.txt deleted');
+//   }
+// });
+//2.9
+// fs.writeFile('note.txt', 'New content here', (err) => {
+//   if (err) {
+//     console.log('Error');
+//   } else {
+//     console.log('note.txt overwritten');
+//   }
+// });
+// fs.readFile('note.txt', 'utf-8', (err, data) => {
+//   if (err) {
+//     console.log('Error');
+//   } else {
+//     console.log(data);
+//   }
+// });
+//2.10
+// fs.mkdir('data', (err) => {
+//   if (err) {
+//     console.log('folder data allredy exist');
+//   } else {
+//     fs.writeFile('data/info.txt', 'Some info', (err2) => {
+//       if (err2) {
+//         console.log('can`t write to info file');
+//       } else {
+//         console.log('File written successfully');
+//       }
+//     });
+//   }
+// });
